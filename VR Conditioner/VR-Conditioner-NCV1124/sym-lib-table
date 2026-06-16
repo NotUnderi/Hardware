@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "NCV1124DR2G")(type "KiCad")(uri "${KIPRJMOD}/Libraries/NCV1124DR2G/KiCad/NCV1124DR2G.kicad_sym")(options "")(descr ""))
+)

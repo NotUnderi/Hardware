@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NCV1124DR2G
+D Two Independent Channels; Internal Hysteresis; Built - In Diagnostic Mode
+K
+F https://www.onsemi.com/pub/Collateral/NCV1124 DATA SHEET.PDF
+$ENDCMP
+#
+#End Doc Library
