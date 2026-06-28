@@ -1,0 +1,9 @@
+Manufacturer=TE Connectivity
+PartNumber=175446-6
+PartCategory=Connector
+PackageCategory=Other
+PinCount=45
+Version=3.2
+Released=2022-07-01 08:41:03
+Downloaded=2026-06-27 21:36:20
+3D=Y

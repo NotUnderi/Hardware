@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '175446_6'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "TE Connectivity", "175446-6" (!) = "", "1754466", "Other", "571-175446-6", "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-AMP/175446-6?qs=NCjoA4VtBPm%2FgYobaI%252BBdg%3D%3D", "Body Features: Primary Product Color Gray | Configuration Features: PCB Mount Orientation Right Angle | Number of Positions 42 | Number of Rows 2 | Contact Features: Contact Type Tab | Contact Mating Area Plating Material Tin (Sn) | Contact Mating Area Plating Material Gold (Au) | Housing Features: Centerline (Pitch) 3 MM | Centerline (Pitch) .118 INCH | Centerline (Pitch) 3.5 MM | Centerline (Pitch) .137 INCH | Mechanical Attachment: PCB Mount Alignment With | PCB Mount Retention Without | Connector Mounti", "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=175446&DocType=Customer+Drawing&DocLang=Japanese", "22.2 mm"
+END_PART
+
+END.
