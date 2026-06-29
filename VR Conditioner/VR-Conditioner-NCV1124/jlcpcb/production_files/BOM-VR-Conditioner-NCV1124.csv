@@ -1,0 +1,5 @@
+Comment,Designator,Footprint,LCSC,Quantity
+100n,"C1,C2,C3",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C49678,3
+10k,"R2,R3",C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,C17414,2
+NCV1124DR2G,J1,NCV7192D0R2G,C152274,1
+Board Conn,J2,DIP-8_W7.62mm_Socket_LongPads,,1

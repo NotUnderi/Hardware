@@ -1,0 +1,8 @@
+Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
+C1,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,163.322,-90.17,-90.0,top
+C2,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,150.622,-90.2208,-90.0,top
+C3,100n,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,148.59,-87.4268,90.0,top
+J1,NCV1124DR2G,NCV7192D0R2G,157.861,-78.74,0.0,top
+J2,Board Conn,DIP-8_W7.62mm_Socket_LongPads,156.972,-87.63,0.0,top
+R2,10k,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,148.5392,-83.6168,90.0,top
+R3,10k,C_0805_2012Metric_Pad1.18x1.45mm_HandSolder,150.5712,-86.4108,90.0,top
