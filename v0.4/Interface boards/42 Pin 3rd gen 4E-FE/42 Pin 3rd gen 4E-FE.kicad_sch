@@ -4238,6 +4238,28 @@
 			)
 		)
 	)
+	(global_label "#10"
+		(shape input)
+		(at 135.89 72.39 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5552c4a0-2ff3-447f-a27d-105bd74ed233")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.5642 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VCC"
 		(shape input)
 		(at 123.19 102.87 180)
@@ -4830,6 +4852,28 @@
 			)
 		)
 	)
+	(global_label "#20"
+		(shape input)
+		(at 135.89 74.93 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2d250f9-74dc-448a-b9cb-058e7002cc9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.5642 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IGN-4-OUT"
 		(shape input)
 		(at 220.98 92.71 180)
@@ -5124,6 +5168,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "NE-"
+		(shape input)
+		(at 135.89 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ca0816dc-ab23-415f-939c-e9026ca97067")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.9271 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

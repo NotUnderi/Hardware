@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.7*%
+%TF.CreationDate,2026-07-21T09:51:19+03:00*%
+%TF.ProjectId,42 Pin 3rd gen 4E-FE,34322050-696e-4203-9372-642067656e20,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.7) date 2026-07-21 09:51:19*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X94400000Y-63120000D02*
+X145060000Y-63120000D01*
+X145060000Y-142550000D01*
+X94400000Y-142550000D01*
+X94400000Y-63120000D01*
+M02*
