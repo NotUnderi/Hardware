@@ -1,0 +1,10 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Arduino")(type "Legacy")(uri "${KIPRJMOD}/lib/Shields/Shields.lib")(options "")(descr ""))
+  (lib (name "Connector")(type "Legacy")(uri "${KIPRJMOD}/lib/Connector_Automotive/Connector_Automotive.lib")(options "")(descr ""))
+  (lib (name "Misc")(type "Legacy")(uri "${KIPRJMOD}/lib/Misc/Misc.lib")(options "")(descr ""))
+  (lib (name "IC_Automotive")(type "Legacy")(uri "${KIPRJMOD}/lib/IC_Automotive/IC_Automotive.lib")(options "")(descr ""))
+  (lib (name "v0.4.4c-rescue")(type "Legacy")(uri "${KIPRJMOD}/v0.4.4c-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "MPX5700ASX")(type "KiCad")(uri "${KIPRJMOD}/Libraries/MPX5700ASX/MPX5700ASX.kicad_sym")(options "")(descr ""))
+  (lib (name "AYZ0202AGRLC")(type "KiCad")(uri "${KIPRJMOD}/Libraries/AYZ0202/AYZ0202AGRLC.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MPX5700ASX
+D Pressure Sensor 2.18PSI ~ 101.53PSI (15kPa ~ 700kPa) Absolute Male - 0.19" (4.93mm) Tube 0.2 V ~ 4.7 V 6-SIP Module
+K
+F https://www.nxp.com/docs/en/data-sheet/MPX5700.pdf
+$ENDCMP
+#
+#End Doc Library

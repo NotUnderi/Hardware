@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MPX5700ASX
+#/11427394/2054850/2.50/6/3/Integrated Circuit
+DEF MPX5700ASX IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "MPX5700ASX" 850 200 50 H V L CNN
+F2 "MPX5700ASX" 850 100 50 H I L CNN
+F3 "https://www.nxp.com/docs/en/data-sheet/MPX5700.pdf" 850 0 50 H I L CNN
+F4 "Pressure Sensor 2.18PSI ~ 101.53PSI (15kPa ~ 700kPa) Absolute Male - 0.19\" (4.93mm) Tube 0.2 V ~ 4.7 V 6-SIP Module" 850 -100 50 H I L CNN "Description"
+F5 "22.98" 850 -200 50 H I L CNN "Height"
+F6 "NXP" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MPX5700ASX" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "841-MPX5700ASX" 850 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPX5700ASX?qs=N2XN0KY4UWVhFMG0PnqXwg%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "MPX5700ASX" 850 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/mpx5700asx/nxp-semiconductors.html?utm_currency=USD&region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X VOUT 1 0 0 200 R 50 50 0 0 P
+X GROUND 2 0 -100 200 R 50 50 0 0 P
+X VCC 3 0 -200 200 R 50 50 0 0 P
+X V1 4 0 -300 200 R 50 50 0 0 P
+X V2 5 0 -400 200 R 50 50 0 0 P
+X VEX 6 0 -500 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
