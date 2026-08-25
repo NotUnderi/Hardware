@@ -303,6 +303,379 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Driver_Motor:Pololu_Breakout_DRV8825"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "A"
+				(at -2.54 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Pololu_Breakout_DRV8825"
+				(at -2.54 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+				(at 5.08 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.pololu.com/product/2982"
+				(at 2.54 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pololu Breakout Board, Stepper Driver DRV8825"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pololu Breakout Board Stepper Driver DRV8825"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pololu*Breakout*15.2x20.3mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Pololu_Breakout_DRV8825_0_1"
+				(rectangle
+					(start 7.62 -17.78)
+					(end -7.62 12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Pololu_Breakout_DRV8825_1_1"
+				(pin output line
+					(at -10.16 10.16 0)
+					(length 2.54)
+					(name "~{FLT}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{RST}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "~{SLP}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "~{EN}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "STEP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -10.16 0)
+					(length 2.54)
+					(name "M0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -12.7 0)
+					(length 2.54)
+					(name "M1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -15.24 0)
+					(length 2.54)
+					(name "M2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 15.24 270)
+					(length 2.54)
+					(name "VMOT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -20.32 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 10.16 -7.62 180)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(offset 0)
@@ -703,6 +1076,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:VDD"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDD\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "v0.4.4c-rescue:VNLD5090-IC_Automotive"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -923,6 +1421,28 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Stepper Idle"
+		(exclude_from_sim no)
+		(at 207.01 88.9 0)
+		(effects
+			(font
+				(size 1.9812 1.9812)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b39417c-9754-4719-83ea-339827a13d76")
+	)
+	(text "PWM Idle and Boost outputs"
+		(exclude_from_sim no)
+		(at 46.99 20.32 0)
+		(effects
+			(font
+				(size 1.9812 1.9812)
+			)
+			(justify left bottom)
+		)
+		(uuid "86265a13-d8ff-4a84-9295-4128653ccfcb")
+	)
 	(text "Fan and Fuel Pump outputs"
 		(exclude_from_sim no)
 		(at 120.65 83.82 0)
@@ -946,16 +1466,52 @@
 		(uuid "b68c7956-a300-4526-aa43-24e8dc688c43")
 	)
 	(junction
+		(at 97.79 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08bb3ccb-228e-4b3f-8e2a-17700150e836")
+	)
+	(junction
 		(at 185.42 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3013c017-3d02-450a-8363-0ba19adc6a04")
 	)
 	(junction
+		(at 39.37 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "354f5050-0a7d-4a49-a392-fcc5cf124743")
+	)
+	(junction
+		(at 39.37 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "374c7a8d-9fa5-4281-bd40-3c98aeb38e95")
+	)
+	(junction
+		(at 218.44 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b0a9676-d689-4517-adfa-9326a4d0fa25")
+	)
+	(junction
+		(at 97.79 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d6007c7-8a9e-43f9-8d5a-c949650adba1")
+	)
+	(junction
 		(at 237.49 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a1d787f-be95-4bf4-b955-327560f0e2dd")
+	)
+	(junction
+		(at 205.74 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a9dae9d9-5dbe-4aa9-ad92-da9450097809")
 	)
 	(junction
 		(at 237.49 50.8)
@@ -968,6 +1524,16 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "deb8ded6-37d2-48fa-b468-1b8a138e2212")
+	)
+	(wire
+		(pts
+			(xy 97.79 50.8) (xy 97.79 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010e9a74-9a4f-4efa-a20e-46a6c035b244")
 	)
 	(wire
 		(pts
@@ -1001,6 +1567,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 115.57) (xy 203.2 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bfe991e-62ff-4fc5-a05f-4226ca577e08")
+	)
+	(wire
+		(pts
 			(xy 181.61 50.8) (xy 185.42 50.8)
 		)
 		(stroke
@@ -1008,6 +1584,16 @@
 			(type default)
 		)
 		(uuid "0cc25b49-caf6-4865-8fa1-f843b5f53cee")
+	)
+	(wire
+		(pts
+			(xy 52.07 50.8) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0edec98c-3496-40c4-a4fb-a276b3fc119c")
 	)
 	(wire
 		(pts
@@ -1021,6 +1607,26 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 43.18) (xy 39.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1556d67d-87a8-43ca-b507-d9583da1bad1")
+	)
+	(wire
+		(pts
+			(xy 226.06 118.11) (xy 228.6 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16dbf6e8-1e2b-4763-b6d5-3f0c8bc5c1f1")
+	)
+	(wire
+		(pts
 			(xy 227.33 46.99) (xy 228.6 46.99)
 		)
 		(stroke
@@ -1031,6 +1637,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 120.65) (xy 226.06 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24042302-4b7c-4467-8542-51232c96b152")
+	)
+	(wire
+		(pts
 			(xy 237.49 31.75) (xy 237.49 34.29)
 		)
 		(stroke
@@ -1038,6 +1654,16 @@
 			(type default)
 		)
 		(uuid "2c9953f0-d58f-4550-9592-3deab44bbe31")
+	)
+	(wire
+		(pts
+			(xy 215.9 97.79) (xy 228.6 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef94a12-3017-4606-8c4e-1e03d3548ae1")
 	)
 	(wire
 		(pts
@@ -1071,6 +1697,36 @@
 	)
 	(wire
 		(pts
+			(xy 81.28 50.8) (xy 97.79 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "414f8d6a-5888-4eea-89f2-a5ee17744055")
+	)
+	(wire
+		(pts
+			(xy 203.2 118.11) (xy 205.74 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426601de-5897-4a18-a00e-51ced31f0769")
+	)
+	(wire
+		(pts
+			(xy 205.74 107.95) (xy 205.74 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4309a7eb-0dc2-4108-be96-faefb8867788")
+	)
+	(wire
+		(pts
 			(xy 140.97 102.87) (xy 139.7 102.87)
 		)
 		(stroke
@@ -1101,6 +1757,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 135.89) (xy 215.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a7b181-235d-484c-a9ae-283b35e1f65e")
+	)
+	(wire
+		(pts
 			(xy 140.97 88.9) (xy 148.59 88.9)
 		)
 		(stroke
@@ -1121,6 +1787,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 43.18) (xy 39.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4caf5b2b-e9a9-4a7f-8360-7ca1a7b764ce")
+	)
+	(wire
+		(pts
+			(xy 218.44 133.35) (xy 218.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1ff663-cdd0-4e5c-8878-80d00b75554c")
+	)
+	(wire
+		(pts
 			(xy 185.42 50.8) (xy 190.5 50.8)
 		)
 		(stroke
@@ -1128,6 +1814,16 @@
 			(type default)
 		)
 		(uuid "50815b5c-11bc-4404-8eee-a86bd5d3c887")
+	)
+	(wire
+		(pts
+			(xy 93.98 30.48) (xy 97.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52ee0983-51bf-46f2-9367-5e0861fa63d6")
 	)
 	(wire
 		(pts
@@ -1151,6 +1847,26 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 113.03) (xy 226.06 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59296a75-66c4-492a-b81b-8df6e9fb88fa")
+	)
+	(wire
+		(pts
+			(xy 226.06 110.49) (xy 228.6 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595d62e5-356a-411a-a736-a5fbbe6f5ac1")
+	)
+	(wire
+		(pts
 			(xy 237.49 31.75) (xy 242.57 31.75)
 		)
 		(stroke
@@ -1171,6 +1887,126 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 50.8) (xy 44.45 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fa7a6d0-ec1b-4542-aa13-19dd26006f59")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 97.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ae0772f-a0a4-452a-820f-4b64d56db6ad")
+	)
+	(wire
+		(pts
+			(xy 203.2 113.03) (xy 205.74 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e8b47f5-b8a0-47de-8107-e4a1cf454bfe")
+	)
+	(wire
+		(pts
+			(xy 83.82 54.61) (xy 81.28 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8de09ceb-5644-4682-bc2c-8b9a06ff29e1")
+	)
+	(wire
+		(pts
+			(xy 81.28 46.99) (xy 83.82 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9505d5cc-12b6-4cbf-bbcf-50d26fff6154")
+	)
+	(wire
+		(pts
+			(xy 39.37 62.23) (xy 39.37 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959abcf6-ae25-43f0-b80c-4da14813f147")
+	)
+	(wire
+		(pts
+			(xy 52.07 43.18) (xy 55.88 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98370160-e771-4f67-834b-36d1b7be4598")
+	)
+	(wire
+		(pts
+			(xy 97.79 39.37) (xy 97.79 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a5be1b-98e0-4b2e-aa6d-61fb483a2fb0")
+	)
+	(wire
+		(pts
+			(xy 203.2 107.95) (xy 205.74 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad3e995-38d6-45fc-a683-c418320a6fcc")
+	)
+	(wire
+		(pts
+			(xy 97.79 30.48) (xy 97.79 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4a0e173-9988-4316-8abd-78c336dbdcee")
+	)
+	(wire
+		(pts
+			(xy 223.52 135.89) (xy 218.44 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5598fa3-cb19-4762-a392-34038915bfc7")
+	)
+	(wire
+		(pts
+			(xy 215.9 135.89) (xy 215.9 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a93b071c-0620-478c-9dba-8c4785526466")
+	)
+	(wire
+		(pts
 			(xy 185.42 39.37) (xy 185.42 43.18)
 		)
 		(stroke
@@ -1178,6 +2014,16 @@
 			(type default)
 		)
 		(uuid "a956c4ee-3003-41c4-bc91-ae86e14c64dd")
+	)
+	(wire
+		(pts
+			(xy 39.37 31.75) (xy 39.37 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a973fdf4-23f4-43ea-ab6e-315498139523")
 	)
 	(wire
 		(pts
@@ -1211,6 +2057,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b997c71f-1c29-4c44-8e02-b9b83df14902")
+	)
+	(wire
+		(pts
 			(xy 237.49 50.8) (xy 237.49 55.88)
 		)
 		(stroke
@@ -1218,6 +2074,16 @@
 			(type default)
 		)
 		(uuid "baa04cc4-ae73-49cd-8ca5-ba17fd1cba62")
+	)
+	(wire
+		(pts
+			(xy 97.79 62.23) (xy 97.79 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcde5f01-892c-4fac-92e8-5250e4c64e03")
 	)
 	(wire
 		(pts
@@ -1238,6 +2104,56 @@
 			(type default)
 		)
 		(uuid "cef38a86-6cfd-48c5-a26f-74fba1aed60f")
+	)
+	(wire
+		(pts
+			(xy 35.56 50.8) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d14ff5e7-9e3b-4156-88be-d190d6f5ef3f")
+	)
+	(wire
+		(pts
+			(xy 39.37 54.61) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91f450d-8c28-4f56-8a2a-aafbd4a39d99")
+	)
+	(wire
+		(pts
+			(xy 97.79 43.18) (xy 81.28 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c00392-3347-4fa2-8a32-dac90625aa37")
+	)
+	(wire
+		(pts
+			(xy 39.37 39.37) (xy 39.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e98b26-eb1f-47b9-b8c2-9c220862746b")
+	)
+	(wire
+		(pts
+			(xy 97.79 63.5) (xy 93.98 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c0d3e4-1b71-4d94-949b-af80c6b7bfff")
 	)
 	(wire
 		(pts
@@ -1309,6 +2225,26 @@
 			)
 		)
 	)
+	(global_label "STEP-A1"
+		(shape input)
+		(at 228.6 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "24d69f2a-7c5e-4731-aef7-721bbbfa247d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "MCU-D4"
 		(shape input)
 		(at 181.61 50.8 180)
@@ -1321,6 +2257,46 @@
 		(uuid "3b908b34-5b26-4957-a414-2957e7478c4b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V-SW"
+		(shape input)
+		(at 228.6 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "40c919bc-c46d-46a5-b1ff-c32603977e89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-D7"
+		(shape input)
+		(at 35.56 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "581da251-b6f3-451b-9437-80dc1e22d637")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1369,6 +2345,26 @@
 			)
 		)
 	)
+	(global_label "BOOST-OUT"
+		(shape input)
+		(at 104.14 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c981660-b585-40b5-8ff2-2a1401e1e870")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "12V-SW"
 		(shape input)
 		(at 242.57 31.75 0)
@@ -1381,6 +2377,86 @@
 		(uuid "7f6044e6-b0e4-4725-b4bc-19351c4b0161")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V-SW"
+		(shape input)
+		(at 93.98 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "880fbe1d-b378-4b25-bb7f-c952f55f924a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-D6"
+		(shape input)
+		(at 35.56 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8d73c142-6ec3-4fa6-97ba-2b387df31c30")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP-B2"
+		(shape input)
+		(at 228.6 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "991995fd-75b8-4c6c-a39b-f761a9468d12")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-D24"
+		(shape input)
+		(at 203.2 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9ed9c6fb-7cfe-44c7-be8e-f3b2d74c57ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1441,6 +2517,126 @@
 		(uuid "c7c5ef78-be36-44b5-9746-73f6d9f73cec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 148.59 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V-SW"
+		(shape input)
+		(at 93.98 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "da717d4c-5b17-4c86-9139-0701a2969681")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 93.98 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP-A2"
+		(shape input)
+		(at 228.6 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db15be41-5a2b-4b7e-be42-b1b44392cbd6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HC-1-OUT"
+		(shape input)
+		(at 104.14 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dbeb74d1-f246-4e8e-aaf6-f66d0c77c5a6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 104.14 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-D16"
+		(shape input)
+		(at 203.2 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebad2612-953e-40c2-bdb5-4983f61e01c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MCU-D17"
+		(shape input)
+		(at 203.2 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9005eb8-2993-48d5-ae1b-48ecc36592cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.2 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STEP-B1"
+		(shape input)
+		(at 228.6 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fa8f359a-0175-4bc4-b649-e968a8dbc863")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1568,6 +2764,796 @@
 			(project "toyota 4efe"
 				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
 					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "v0.4.4c-rescue:VNLD5090-IC_Automotive")
+		(at 66.04 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ce9f50f")
+		(property "Reference" "U7"
+			(at 68.58 33.8582 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VNLD5090"
+			(at 68.58 36.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 71.12 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/vnld5090-e.pdf"
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 66.04 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer_Name" "STMicro"
+			(at 0 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "VNLD5090-E"
+			(at 0 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com.au/products/en?keywords=VNLD5090-E"
+			(at 0 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey Part Number" "497-18682-ND"
+			(at 0 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "acfc0c8c-cb81-4544-b11f-f85dce85906e")
+		)
+		(pin "1"
+			(uuid "14877f70-4a08-4a5a-9471-a348f3c65291")
+		)
+		(pin "2"
+			(uuid "663e224c-4a06-42b9-a704-f19395f343ef")
+		)
+		(pin "3"
+			(uuid "bdd4d0cb-31ba-4bbc-b798-53622be7748e")
+		)
+		(pin "8"
+			(uuid "906244d4-faff-45a8-b4fa-4eb90ea6c9be")
+		)
+		(pin "7"
+			(uuid "797bca47-8a47-4c50-8b4f-1c2f87673637")
+		)
+		(pin "6"
+			(uuid "020c0569-d0a8-488a-8ea1-9beefad83731")
+		)
+		(pin "5"
+			(uuid "5781d139-b23e-42ec-9d2a-c942549a4452")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 43.18 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea09a6")
+		(property "Reference" "R47"
+			(at 48.26 37.9222 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 48.26 40.2336 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 48.26 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
+			(at 5.08 -5.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "19471fc5-7fdb-4aa7-9274-9e33994962aa")
+		)
+		(pin "1"
+			(uuid "ec218d80-f213-4e52-980a-ef2d77c63174")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea1b76")
+		(property "Reference" "R48"
+			(at 48.26 45.5422 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 48.26 47.8536 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 48.26 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 48.26 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-1.00KCRCT-ND"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
+			(at -2.54 2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bbb3144e-05b3-4a97-a140-a41474f3f5b4")
+		)
+		(pin "2"
+			(uuid "279c5ce4-16b2-4b17-8d53-74b8fba8b207")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea1fff")
+		(property "Reference" "R50"
+			(at 41.148 57.2516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 41.148 59.563 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 41.148 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-100KCRCT-ND"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04cd44ab-94d4-4565-a56e-3989886a00ee")
+		)
+		(pin "2"
+			(uuid "66c9f899-0fed-4a32-95d3-57f88f4c29a9")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 39.37 35.56 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea268e")
+		(property "Reference" "R49"
+			(at 41.148 34.3916 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 41.148 36.703 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 41.148 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "311-100KCRCT-ND"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Yageo"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RC0805FR-07100KL"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07100KL/311-100KCRCT-ND/730491"
+			(at 78.74 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5c14bd0f-24b3-4e06-8d82-684cadd6e753")
+		)
+		(pin "2"
+			(uuid "cb1e1298-e110-4e53-9987-b00354f714b0")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea2f94")
+		(property "Reference" "#PWR056"
+			(at 39.37 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.243 23.5458 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dac55b45-7933-4553-8649-e262b2714ccd")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 39.37 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea389b")
+		(property "Reference" "#PWR057"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 39.497 70.4342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f2a1fd7a-b409-4fad-a62a-4e051ef7d8a6")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea469d")
+		(property "Reference" "#PWR058"
+			(at 90.17 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.0712 46.863 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41bf112b-82cb-496e-a48b-00e25c9d5d2f")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 83.82 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cea5183")
+		(property "Reference" "#PWR059"
+			(at 90.17 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.0712 54.483 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10877c53-1c5b-4990-8447-c6480a85eb0a")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -2364,6 +4350,244 @@
 		)
 	)
 	(symbol
+		(lib_id "Driver_Motor:Pololu_Breakout_DRV8825")
+		(at 215.9 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cfe4b9e")
+		(property "Reference" "A1"
+			(at 215.9 93.1926 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pololu_Breakout_DRV8825"
+			(at 215.9 95.504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Module:Pololu_Breakout-16_15.2x20.3mm"
+			(at 220.98 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.pololu.com/product/2982"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "9"
+			(uuid "d1e65817-5944-48c8-935c-9767b4bcc8b6")
+		)
+		(pin "14"
+			(uuid "8ed7e79e-6824-425a-9344-afc4b17f46a5")
+		)
+		(pin "2"
+			(uuid "59990cae-07b5-4ad4-a19f-0ebe01550bbc")
+		)
+		(pin "13"
+			(uuid "9d83e959-6534-4c86-a181-4d65bd12a486")
+		)
+		(pin "15"
+			(uuid "6bcfe063-0dbe-47f3-a5e5-030ce5b9517f")
+		)
+		(pin "16"
+			(uuid "36ef5e85-ec34-4d60-94d1-5c45783c1bf6")
+		)
+		(pin "10"
+			(uuid "5c8f963a-91e9-4f63-b714-2bbf76617128")
+		)
+		(pin "11"
+			(uuid "b21a8755-a6f7-46ed-aa2a-6bf7aafe0c89")
+		)
+		(pin "1"
+			(uuid "c431b710-4bcf-4a8c-8c76-0adcfbda15da")
+		)
+		(pin "3"
+			(uuid "0e667bae-2be8-41a3-8a14-ef316db8e037")
+		)
+		(pin "7"
+			(uuid "7192e537-363d-4a6d-8e2d-14de8036be2a")
+		)
+		(pin "4"
+			(uuid "a126eeca-9c6f-4ee4-8040-eda5c4380a51")
+		)
+		(pin "12"
+			(uuid "7f85eed7-ea41-4e78-bb89-8404c44b0ec2")
+		)
+		(pin "6"
+			(uuid "4c1c4e51-10a9-474d-81a9-69589be9a7fb")
+		)
+		(pin "8"
+			(uuid "b8b78ec0-dff1-4180-ae3f-0305e08140bf")
+		)
+		(pin "5"
+			(uuid "8b1175ed-574b-4184-a8b3-dce25415713b")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "A1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cfe6778")
+		(property "Reference" "#PWR0110"
+			(at 229.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.9142 135.763 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 223.52 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cad3ab01-182a-499b-9103-c1b8feb7eb4f")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDD")
+		(at 203.2 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005cff33b9")
+		(property "Reference" "#PWR0111"
+			(at 207.01 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD"
+			(at 199.9488 107.5182 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8905c1b0-9024-4e71-bd76-409157a03283")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:2N7002")
 		(at 138.43 111.76 0)
 		(unit 1)
@@ -2811,6 +5035,215 @@
 			(project "toyota 4efe"
 				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
 					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 97.79 35.56 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000605cad9e")
+		(property "Reference" "D17"
+			(at 99.7966 34.3916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 99.7966 36.703 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "S110FACT-ND"
+			(at 59.69 -201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ONSEMI"
+			(at 59.69 -201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S110FA"
+			(at 59.69 -201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098"
+			(at 59.69 -201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d69e9e2-2e7d-4e5a-9066-d14b15c581d8")
+		)
+		(pin "2"
+			(uuid "29161947-8986-4cef-a02b-3868dec12c22")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 97.79 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000605cc406")
+		(property "Reference" "D18"
+			(at 99.7966 59.5884 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 99.7966 57.277 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Digikey Part Number" "S110FACT-ND"
+			(at 59.69 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ONSEMI"
+			(at 59.69 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S110FA"
+			(at 59.69 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "URL" "https://www.digikey.com/en/products/detail/on-semiconductor/S110FA/5892098"
+			(at 59.69 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd0ee63e-f704-441b-835f-326756a6f54b")
+		)
+		(pin "2"
+			(uuid "8841d96a-7f16-4403-9ec0-7dfaf2a73476")
+		)
+		(instances
+			(project "toyota 4efe"
+				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
+					(reference "D18")
 					(unit 1)
 				)
 			)

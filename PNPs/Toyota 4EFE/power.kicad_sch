@@ -2849,7 +2849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:AYZ0202AGRLC"
+		(property "Footprint" "Misc:AYZ0202AGRLC"
 			(at 176.53 125.73 0)
 			(effects
 				(font
@@ -3177,7 +3177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 140.97 126.6952 0)
 			(effects
 				(font

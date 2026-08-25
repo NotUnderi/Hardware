@@ -740,156 +740,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Jumper:Jumper_3_Bridged12"
 			(pin_names
 				(offset 0)
@@ -1021,206 +871,6 @@
 				)
 			)
 			(symbol "Jumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Jumper:Jumper_3_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, both open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Open_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_1"
-				(arc
-					(start -3.048 1.016)
-					(mid -1.651 1.4992)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.651 1.4992)
-					(end 3.048 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_1_1"
 				(pin passive line
 					(at -6.35 0 0)
 					(length 2.54)
@@ -2308,18 +1958,6 @@
 		(uuid "7190c3d9-3eb2-48ca-af8f-49c6bcaf290a")
 	)
 	(junction
-		(at 208.28 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73c2e586-924a-4891-ae04-159fbdf1ec88")
-	)
-	(junction
-		(at 247.65 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77fdedc1-2a81-4262-a90a-979dc02fb928")
-	)
-	(junction
 		(at 156.21 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2336,12 +1974,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82cbcb23-969f-4e16-83d2-c0960c06e0fa")
-	)
-	(junction
-		(at 208.28 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82e22da6-7aba-48f6-a451-37e98b912960")
 	)
 	(junction
 		(at 129.54 33.02)
@@ -2384,12 +2016,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a97c785c-df4a-4297-a3b4-d50d43df63c3")
-	)
-	(junction
-		(at 247.65 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b31d702b-db53-4877-adbc-25542a140b0f")
 	)
 	(junction
 		(at 251.46 99.06)
@@ -2466,6 +2092,26 @@
 			(type default)
 		)
 		(uuid "023cb3a4-5574-49cb-982a-6e3a95b95b06")
+	)
+	(wire
+		(pts
+			(xy 214.63 106.68) (xy 214.63 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0761fd42-d80b-4dc9-981a-a33b3bc861f7")
+	)
+	(wire
+		(pts
+			(xy 214.63 99.06) (xy 214.63 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "098307f3-d8f6-40a3-b374-77ec2310be10")
 	)
 	(wire
 		(pts
@@ -2559,26 +2205,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 82.55) (xy 247.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19964352-7688-42d6-9899-27f2addbfdd4")
-	)
-	(wire
-		(pts
-			(xy 210.82 99.06) (xy 210.82 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1edab383-10f3-4696-827f-d75f76a4e141")
-	)
-	(wire
-		(pts
 			(xy 240.03 41.91) (xy 236.22 41.91)
 		)
 		(stroke
@@ -2616,16 +2242,6 @@
 			(type default)
 		)
 		(uuid "24546ec2-d665-4a72-86fe-9426b3a93329")
-	)
-	(wire
-		(pts
-			(xy 247.65 121.92) (xy 247.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25c6dcf3-1287-4b86-b7e0-26843a77f5d9")
 	)
 	(wire
 		(pts
@@ -2739,16 +2355,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 88.9) (xy 247.65 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34722946-6919-4e75-8895-f5a0d7c70b16")
-	)
-	(wire
-		(pts
 			(xy 241.3 104.14) (xy 243.84 104.14)
 		)
 		(stroke
@@ -2756,16 +2362,6 @@
 			(type default)
 		)
 		(uuid "36aecb76-0a41-4ac8-8253-ebff3ad75545")
-	)
-	(wire
-		(pts
-			(xy 208.28 120.65) (xy 208.28 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3965dc8b-0917-4b4b-8101-7b5d656bf22a")
 	)
 	(wire
 		(pts
@@ -2919,16 +2515,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 93.98) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547a3a99-b074-4078-949a-57e32473408c")
-	)
-	(wire
-		(pts
 			(xy 88.9 53.34) (xy 86.36 53.34)
 		)
 		(stroke
@@ -3029,16 +2615,6 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 88.9) (xy 219.71 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6787581f-ff04-4208-881d-7ee1be5b8bc8")
-	)
-	(wire
-		(pts
 			(xy 247.65 99.06) (xy 251.46 99.06)
 		)
 		(stroke
@@ -3059,16 +2635,6 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 121.92) (xy 200.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e498e0a-a8e8-4e42-a584-fe4c7e9e1892")
-	)
-	(wire
-		(pts
 			(xy 130.81 130.81) (xy 130.81 125.73)
 		)
 		(stroke
@@ -3076,16 +2642,6 @@
 			(type default)
 		)
 		(uuid "6e8d37dc-4a9f-482c-9e2a-ec110b4c6dad")
-	)
-	(wire
-		(pts
-			(xy 198.12 82.55) (xy 200.66 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70705405-bb48-4961-b0a5-7025fc28df21")
 	)
 	(wire
 		(pts
@@ -3139,7 +2695,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 88.9) (xy 247.65 99.06)
+			(xy 247.65 82.55) (xy 247.65 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3199,7 +2755,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 116.84) (xy 247.65 105.41)
+			(xy 247.65 105.41) (xy 247.65 121.92)
 		)
 		(stroke
 			(width 0)
@@ -3219,7 +2775,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 106.68) (xy 210.82 106.68)
+			(xy 201.93 106.68) (xy 214.63 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3299,16 +2855,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 110.49) (xy 208.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95ca711e-8376-4fbe-a2a2-07ed2c24b589")
-	)
-	(wire
-		(pts
 			(xy 29.21 46.99) (xy 29.21 41.91)
 		)
 		(stroke
@@ -3329,16 +2875,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 116.84) (xy 214.63 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cd53488-31a2-4cae-83ef-5ff7525b1386")
-	)
-	(wire
-		(pts
 			(xy 129.54 78.74) (xy 137.16 78.74)
 		)
 		(stroke
@@ -3356,16 +2892,6 @@
 			(type default)
 		)
 		(uuid "9e0095de-9bef-4c75-9f0c-e958e8ac3c67")
-	)
-	(wire
-		(pts
-			(xy 201.93 99.06) (xy 208.28 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9efc9033-2426-475e-b7cc-b6a152ff0d9a")
 	)
 	(wire
 		(pts
@@ -3429,16 +2955,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 106.68) (xy 208.28 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4aebad1-f152-48b9-8f74-4ac698346e52")
-	)
-	(wire
-		(pts
 			(xy 82.55 38.1) (xy 82.55 35.56)
 		)
 		(stroke
@@ -3476,16 +2992,6 @@
 			(type default)
 		)
 		(uuid "b0aefbe7-0985-4fe6-a1c1-81c51aa7e658")
-	)
-	(wire
-		(pts
-			(xy 208.28 82.55) (xy 208.28 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b29eda00-4933-427a-be8b-cad4bbaebd07")
 	)
 	(wire
 		(pts
@@ -3566,16 +3072,6 @@
 			(type default)
 		)
 		(uuid "beff16e2-373a-445c-a20f-7125aeeff540")
-	)
-	(wire
-		(pts
-			(xy 210.82 106.68) (xy 210.82 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf13c5f8-da0b-467a-aacd-99d9c28fcabc")
 	)
 	(wire
 		(pts
@@ -3686,16 +3182,6 @@
 			(type default)
 		)
 		(uuid "ce640225-013e-40c2-8ba1-82aa31fddc3e")
-	)
-	(wire
-		(pts
-			(xy 227.33 116.84) (xy 247.65 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf04b342-d7a7-4b4f-9254-10c287ee72e7")
 	)
 	(wire
 		(pts
@@ -3839,7 +3325,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 210.82 99.06)
+			(xy 201.93 99.06) (xy 214.63 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4822,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:MPX5700ASX"
+		(property "Footprint" "Misc:MPX4250"
 			(at 49.53 48.26 0)
 			(effects
 				(font
@@ -5513,210 +4999,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 223.52 88.9 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005cd59d56")
-		(property "Reference" "R43"
-			(at 223.52 83.6422 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 223.52 85.9536 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 223.52 87.122 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-220CRCT-ND"
-			(at 134.62 -134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 134.62 -134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07220RL"
-			(at 134.62 -134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07220RL/311-220CRCT-ND/730688"
-			(at 134.62 -134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "64034864-5eac-49e5-a3ab-3946340a9a66")
-		)
-		(pin "2"
-			(uuid "0aac2a1b-eb03-432c-b18c-96027b0c3de8")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "R43")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 82.55 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005cd5a701")
-		(property "Reference" "R41"
-			(at 204.47 77.2922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 204.47 79.6036 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 204.47 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 121.92 -121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 121.92 -121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 121.92 -121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 121.92 -121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a868fca2-cc5d-4b98-a7c9-f41a8663a340")
-		)
-		(pin "1"
-			(uuid "ba901f34-ce3c-48f4-ae4b-d4f7d6fff858")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "R41")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 251.46 92.71 0)
 		(unit 1)
@@ -5879,212 +5161,6 @@
 			(project "toyota 4efe"
 				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 223.52 116.84 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005cda6804")
-		(property "Reference" "R44"
-			(at 223.52 122.0978 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220R"
-			(at 223.52 119.7864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 223.52 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 223.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 223.52 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-220CRCT-ND"
-			(at 106.68 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 106.68 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-07220RL"
-			(at 106.68 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-07220RL/311-220CRCT-ND/730688"
-			(at 106.68 340.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2742ab91-b940-4fc2-93ef-529543e3c2b7")
-		)
-		(pin "1"
-			(uuid "8c03ff2f-944b-4d19-a4c7-3dfa7670a112")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 204.47 121.92 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005cda680a")
-		(property "Reference" "R42"
-			(at 204.47 127.1778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 204.47 124.8664 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 204.47 123.698 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "311-1.00KCRCT-ND"
-			(at 82.55 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Yageo"
-			(at 82.55 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "RC0805FR-071KL"
-			(at 82.55 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com/product-detail/en/yageo/RC0805FR-071KL/311-1.00KCRCT-ND/730391"
-			(at 82.55 326.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0c04b07-9f7c-49f3-aa6a-cae5356b1507")
-		)
-		(pin "1"
-			(uuid "fa93d895-4a51-47fa-bb16-48bf44348be7")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "R42")
 					(unit 1)
 				)
 			)
@@ -8878,215 +7954,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 208.28 115.57 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d04e1eb")
-		(property "Reference" "JP5"
-			(at 212.09 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PULL-UP"
-			(at 207.01 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "952-2261-ND "
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin Inc"
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M20-9990245 "
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/products/en?keywords=M20-9990245"
-			(at 208.28 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5e6c941-08e9-4ba8-ac19-ae4628ce79c7")
-		)
-		(pin "2"
-			(uuid "516c1e91-1464-4a15-b0fd-25ed213c34ec")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "JP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 208.28 88.9 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d0545aa")
-		(property "Reference" "JP4"
-			(at 212.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PULL-UP"
-			(at 207.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "952-2261-ND "
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin Inc"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M20-9990245 "
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/products/en?keywords=M20-9990245"
-			(at 208.28 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "062dce42-aaab-426c-a0c1-330d849bb15f")
-		)
-		(pin "2"
-			(uuid "8c8018d0-3a9a-4b71-8917-97a6095c88de")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "JP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_02x04_Counter_Clockwise")
 		(at 233.68 101.6 0)
 		(unit 1)
@@ -9296,351 +8163,6 @@
 			(project "toyota 4efe"
 				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 214.63 95.25 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d0cfc9f")
-		(property "Reference" "JP2"
-			(at 216.8398 94.0816 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VR-HALL"
-			(at 216.8398 96.393 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "952-2263-ND "
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin Inc"
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M20-9990345"
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/products/en?keywords=M20-9990345"
-			(at 214.63 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cfea95aa-4d46-491e-818c-37d4efad2826")
-		)
-		(pin "2"
-			(uuid "0f348928-7e2b-4f8d-a6bb-7a3d23879314")
-		)
-		(pin "3"
-			(uuid "00a4c7c8-e080-44bc-9651-1433f3bf02a8")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 214.63 110.49 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d0d2e8f")
-		(property "Reference" "JP3"
-			(at 216.8398 109.3216 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VR-HALL"
-			(at 216.8398 111.633 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "952-2263-ND "
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin Inc"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "M20-9990345"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/products/en?keywords=M20-9990345"
-			(at 214.63 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a63b2be-9bda-4aff-b1b3-410d2b320ae1")
-		)
-		(pin "1"
-			(uuid "fa864fe6-f798-4729-8786-fdbf19f37351")
-		)
-		(pin "3"
-			(uuid "64c5d895-4d44-49ec-870c-c657a1066e79")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 198.12 82.55 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d77a64c")
-		(property "Reference" "#PWR0115"
-			(at 201.93 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 194.8688 82.1182 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2aefab7-a5c6-459f-b6fc-9671fcb46920")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDDA")
-		(at 198.12 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d78277b")
-		(property "Reference" "#PWR0116"
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VDDA"
-			(at 194.8688 121.4882 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 198.12 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 198.12 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9e8433f4-144e-4fdb-b3e5-efe94f5d3327")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd18d89"
-					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
