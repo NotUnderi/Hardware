@@ -4308,7 +4308,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Misc:MPX4250"
+		(property "Footprint" "Library:MPX5700ASX"
 			(at 49.53 48.26 0)
 			(effects
 				(font

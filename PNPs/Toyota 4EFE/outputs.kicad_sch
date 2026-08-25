@@ -1737,16 +1737,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 111.76) (xy 133.35 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "465467d3-fcb9-41f8-afe8-5908393476d0")
-	)
-	(wire
-		(pts
 			(xy 237.49 50.8) (xy 242.57 50.8)
 		)
 		(stroke
@@ -1834,16 +1824,6 @@
 			(type default)
 		)
 		(uuid "57882b50-aa48-4538-871a-316b12701b1e")
-	)
-	(wire
-		(pts
-			(xy 140.97 106.68) (xy 148.59 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5797430e-827b-4b1e-a3c3-21c160552499")
 	)
 	(wire
 		(pts
@@ -2027,16 +2007,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 120.65) (xy 139.7 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa6a8098-568c-4874-b47a-283186580b29")
-	)
-	(wire
-		(pts
 			(xy 198.12 43.18) (xy 201.93 43.18)
 		)
 		(stroke
@@ -2164,16 +2134,6 @@
 			(type default)
 		)
 		(uuid "f61ae359-1109-49d5-a6f0-36d1644d536e")
-	)
-	(wire
-		(pts
-			(xy 140.97 116.84) (xy 140.97 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc079eae-51d1-464f-a8db-19b5cdd6c017")
 	)
 	(wire
 		(pts
@@ -2325,26 +2285,6 @@
 			)
 		)
 	)
-	(global_label "MCU-D45"
-		(shape input)
-		(at 129.54 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63a361dd-39e5-44e4-aea1-edf118dbd166")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BOOST-OUT"
 		(shape input)
 		(at 104.14 43.18 0)
@@ -2457,26 +2397,6 @@
 		(uuid "9ed9c6fb-7cfe-44c7-be8e-f3b2d74c57ce")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 203.2 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FUELPUMP-OUT"
-		(shape input)
-		(at 148.59 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b3946f10-61e1-4cd5-8904-7f35040a69e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4589,116 +4509,6 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:2N7002")
-		(at 138.43 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d1bc444")
-		(property "Reference" "Q3"
-			(at 143.6624 110.5916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SSM3K357R"
-			(at 143.6624 112.903 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 143.51 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/408/SSM3K357R_datasheet_en_20180124-1316146.pdf"
-			(at 138.43 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 138.43 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Digikey Part Number" "SSM3K357RLFCT-ND "
-			(at 0 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Toshiba"
-			(at 0 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSM3K357R"
-			(at 0 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "URL" "https://www.digikey.com.au/product-detail/en/toshiba-semiconductor-and-storage/SSM3K357RLF/SSM3K357RLFCT-ND/8611183"
-			(at 0 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e1cb10a3-deda-4fca-9759-dcafa7527670")
-		)
-		(pin "1"
-			(uuid "4d63d7d1-4447-434b-8cd1-aa7fcfbf8f7f")
-		)
-		(pin "3"
-			(uuid "87dda32a-1e31-4b80-b46b-9dabe06e7228")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:2N7002")
 		(at 138.43 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4802,70 +4612,6 @@
 			(project "toyota 4efe"
 				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 139.7 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005d1d0b9d")
-		(property "Reference" "#PWR0112"
-			(at 133.35 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 135.3058 120.777 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 139.7 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4423c6d7-3ac4-4580-8d34-373b2f33636c")
-		)
-		(instances
-			(project "toyota 4efe"
-				(path "/04f7226c-d840-4f7e-960b-f287626b813e/00000000-0000-0000-0000-00005cd191f5"
-					(reference "#PWR0112")
 					(unit 1)
 				)
 			)

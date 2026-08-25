@@ -4676,7 +4676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Shields:Arduino_Mega2560_Shield_IO_Only"
+		(property "Footprint" "Library:Uno Shield"
 			(at 171.45 16.51 0)
 			(effects
 				(font
