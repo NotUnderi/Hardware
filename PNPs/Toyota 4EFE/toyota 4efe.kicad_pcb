@@ -428,6 +428,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C64898"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "15efb868-33da-4ef5-a0d3-403ad012f60d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-0000605cad9e")
 		(sheetname "/Outputs/")
@@ -761,6 +773,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d5019f94-10e2-4eaa-9575-7af0916a70a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18ec3/00000000-0000-0000-0000-00005cd284e9")
 		(sheetname "/Power/")
@@ -950,6 +974,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f8ad3eec-36e6-4a69-ad4f-b5820faf8fbc")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1147,6 +1183,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "da998de0-dd5a-4de9-8f99-c6a38f62e8d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005eae007d")
 		(sheetname "/Inputs/")
@@ -1336,6 +1384,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C45783"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d937aa85-5ed1-43cb-8a0a-a4838ddaa226")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1533,6 +1593,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5378"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "49550d62-1ccc-4c6c-a723-95dca8975fae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce18089")
 		(sheetname "/Inputs/")
@@ -1724,6 +1796,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "afa50b4d-4a4f-43a1-8d91-5c7fe04723b8")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2051,6 +2135,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1743"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aaab1905-6625-4349-937c-4b15b238c787")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005cd1b30e")
 		(sheetname "/Inputs/")
@@ -2240,6 +2336,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "429ff06e-57d8-4189-96fa-d0f778331c2b")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2437,6 +2545,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd8730e9-1b92-4658-914e-31fbcb168130")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd5ea6f")
 		(sheetname "/Fuel & Ignition/")
@@ -2628,6 +2748,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C64898"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a99c30ad-37f6-42cf-a47f-6b1b1234b10a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2965,6 +3097,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1e8f912f-f7d2-4347-b5d4-0bba0ef2198f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd55d19")
 		(sheetname "/Fuel & Ignition/")
@@ -3209,6 +3353,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86a0a343-5bac-4225-ba1d-06c838e53c3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd5ea63")
 		(sheetname "/Fuel & Ignition/")
@@ -3411,6 +3567,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2158185"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "11c84bb4-ae36-458f-96d7-97c7fd9c2bee")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3657,6 +3825,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1743"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "87191402-8f5e-4670-a244-785e3c92c7c0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005eae07a7")
 		(sheetname "/Inputs/")
@@ -3872,6 +4052,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C133956"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "505427a6-240b-4e64-ba52-a501d183484b")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4287,6 +4479,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C12744"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e47f93e-7a9a-4119-b951-091d97ca453f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005d7d1f30")
 		(sheetname "/Inputs/")
@@ -4610,6 +4814,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5378"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2f9dfcf8-0340-4efb-a9f2-37b23e06dfce")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce11f7e")
 		(sheetname "/Inputs/")
@@ -4799,6 +5015,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C222209"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34c2b159-8d5d-419a-8d11-0be93cb3d0d2")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5220,6 +5448,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17437"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7227ccab-02c1-486a-822d-e074be71b093")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18ec3/00000000-0000-0000-0000-00005cf13c09")
 		(sheetname "/Power/")
@@ -5597,6 +5837,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C20810"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86993d1e-4a2f-4cf8-8001-85186f8335c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "*polyfuse* *PTC*")
 		(path "/00000000-0000-0000-0000-00005cd18ec3/00000000-0000-0000-0000-00005d777946")
 		(sheetname "/Power/")
@@ -5790,6 +6042,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1030679d-b805-48b2-9e60-83bd4dc827dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd5ea69")
 		(sheetname "/Fuel & Ignition/")
@@ -5979,6 +6243,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9a780714-c465-4509-b1b7-b131cb281cb4")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6189,6 +6465,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f170b2eb-1be5-4732-9c41-a077db098997")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18ec3/00000000-0000-0000-0000-00005cd23bd5")
 		(sheetname "/Power/")
@@ -6378,6 +6666,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c6e62716-9f59-4d70-9f92-1756c7913ca0")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -6575,6 +6875,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9577419e-e740-40ef-88ab-eed220cdc625")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce1fcaa")
 		(sheetname "/Inputs/")
@@ -6768,6 +7080,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5378"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6fd53fb9-66f6-4abe-9f0c-817fd09bf4e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce24fde")
 		(sheetname "/Inputs/")
@@ -6957,6 +7281,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e4e41fda-2cfb-4f91-9e84-fdc0ecbea340")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -7201,6 +7537,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C21237"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de6a0958-54b9-4de7-beea-734d4c0a0ed6")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8050,6 +8398,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4410477-669a-402e-b00a-7945f68195a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd55cd3")
 		(sheetname "/Fuel & Ignition/")
@@ -8241,6 +8601,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C64898"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "611375dc-64d2-43fc-8d3f-d8f2fe512a01")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -8578,6 +8950,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "56d0bdfd-915b-425d-9e3e-4b154f295efb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005d168ef2")
 		(sheetname "/Fuel & Ignition/")
@@ -8771,6 +9155,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C5378"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "38644857-13e8-4727-8e64-abdc0ce4ac61")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005cdabec8")
 		(sheetname "/Inputs/")
@@ -8917,7 +9313,7 @@
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005d089193")
 		(sheetname "/Inputs/")
 		(sheetfile "inputs.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.16 -1.33)
 			(end 1.16 8.95)
@@ -9279,6 +9675,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C84256"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bc55d839-1b8f-4628-97df-c13c4e7d720d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd6a0c2")
 		(sheetname "/Fuel & Ignition/")
@@ -9523,6 +9931,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5a516042-5dbc-4c1f-b582-a7fcae651cf1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce24fd8")
 		(sheetname "/Inputs/")
@@ -9712,6 +10132,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b56de721-d1ec-4ae3-b418-1bf30af82e05")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -9909,6 +10341,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bb928c46-9e5e-4e92-a9ec-a915b776d06f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce24fe4")
 		(sheetname "/Inputs/")
@@ -10100,6 +10544,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2128"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "923b30d4-a069-4498-8dc7-24ce27286f1a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10427,6 +10883,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7aa3dbfc-446b-4c34-9105-ad7299a018a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005cead72c")
 		(sheetname "/Outputs/")
@@ -10616,6 +11084,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "026c9c5e-9f77-462d-9588-7e0dcb94bafe")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -10813,6 +11293,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4eee2240-ec03-4660-badd-6ceb0a96b2f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd5ea75")
 		(sheetname "/Fuel & Ignition/")
@@ -11002,6 +11494,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d4bf5037-560c-4bc7-be1d-00c8ee234e72")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11199,6 +11703,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17414"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9e3d398b-4a7a-4b4e-ae18-c06df1649a62")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18ec3/00000000-0000-0000-0000-00005ce55978")
 		(sheetname "/Power/")
@@ -11392,6 +11908,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9201fe72-aaa6-4f03-ae6a-fb99ff3a8247")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce29ac6")
 		(sheetname "/Inputs/")
@@ -11581,6 +12109,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17614"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d3d8bcd5-7818-4bda-a486-2e7d6a68910a")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -11821,7 +12361,7 @@
 		(path "/00000000-0000-0000-0000-00005cd18ec3/00000000-0000-0000-0000-00005cddd447")
 		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 3.6 1.75)
 			(end -3.6 1.75)
@@ -12176,6 +12716,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C434726"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c3c24741-2e3f-4a30-ad17-39a443568497")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -12677,6 +13229,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C7369997"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f6fb3631-83eb-4bc5-aecb-4cdd2f8b5389")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005d1c298d")
 		(sheetname "/Outputs/")
@@ -13094,6 +13658,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ac36b689-c56b-475c-a988-44f37bee88d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005cea09a6")
 		(sheetname "/Outputs/")
@@ -13283,6 +13859,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17526"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e81912ef-9aa4-4390-b9ca-8d5b12cb0944")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13480,6 +14068,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cb9f9cb2-7c4e-4993-9ac0-b9042e8afd97")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce11f84")
 		(sheetname "/Inputs/")
@@ -13669,6 +14269,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1faaf4da-12d0-41e9-9256-59fdd36c5bd4")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -13871,7 +14483,7 @@
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005d14b81b")
 		(sheetname "/Fuel & Ignition/")
 		(sheetfile "Fuel_Ignition.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 1.38 1.27)
 			(end 1.38 6.46)
@@ -14154,6 +14766,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9db7e961-dbea-4c07-a8e3-9581098aec5f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005cea1b76")
 		(sheetname "/Outputs/")
@@ -14345,6 +14969,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C64898"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1364e8c6-1c25-45d1-a37e-90fbc76d6d1b")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -14682,6 +15318,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7bbad6c-f714-464b-a602-0b97eb1177f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005cd2115b")
 		(sheetname "/Inputs/")
@@ -14871,6 +15519,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C222209"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8aec07ef-a8c3-4d4a-b008-e43bdce83449")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -15292,6 +15952,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C431679"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c7b1c7f1-76a5-4bbf-9186-a93883c1d68d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd5779e")
 		(sheetname "/Fuel & Ignition/")
 		(sheetfile "Fuel_Ignition.kicad_sch")
@@ -15708,6 +16380,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17526"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0322d972-13d8-4c45-88a3-4eecd7330f2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd80b31")
 		(sheetname "/Fuel & Ignition/")
@@ -15897,6 +16581,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "11dbc1bd-0caf-4e3e-a481-5eb66a31d9e8")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -16094,6 +16790,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1d05fbc8-5154-403a-84f8-98d50d266410")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005cda6810")
 		(sheetname "/Inputs/")
@@ -16283,6 +16991,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C222209"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "51b42408-52a7-48a0-bd47-ed52a47ccb2d")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -16704,6 +17424,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8248e7f1-6241-46cc-b50a-117ada911c17")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005cea268e")
 		(sheetname "/Outputs/")
@@ -16906,6 +17638,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C347556"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4f51e8d0-295f-4d1f-911d-306bea8dea47")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -17152,6 +17896,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C28323"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c58b9681-8df9-42e1-8fa4-30f194fb4512")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005d168ef8")
 		(sheetname "/Fuel & Ignition/")
@@ -17345,6 +18101,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17526"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6906c66a-a52f-444b-a8db-ce174fe4de09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd6b4d7")
 		(sheetname "/Fuel & Ignition/")
@@ -17534,6 +18302,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C84256"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "56947639-e0b0-45b2-b9c1-b306a6c2df39")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -17782,6 +18562,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "59564f88-2563-454e-abcc-c24e84c9817e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005cead720")
 		(sheetname "/Outputs/")
@@ -17992,7 +18784,7 @@
 		(path "/00000000-0000-0000-0000-00005cd19033/b9472381-484f-4e1c-9d4f-b015cfb6b0eb")
 		(sheetname "/Connector/")
 		(sheetfile "connector.kicad_sch")
-		(attr through_hole exclude_from_pos_files)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 25.5 68.5)
 			(end 7 68.5)
@@ -18753,6 +19545,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C5378"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7e1e831a-5404-41d8-8e50-4cef95e7f408")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -20136,6 +20940,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17526"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30e74e36-a451-4783-9875-da0a65f125f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd55d13")
 		(sheetname "/Fuel & Ignition/")
@@ -20284,7 +21100,7 @@
 		(sheetname "/Inputs/")
 		(sheetfile "inputs.kicad_sch")
 		(zone_connect 1)
-		(attr exclude_from_pos_files allow_soldermask_bridges)
+		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_poly
 			(pts
@@ -20650,6 +21466,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6e303366-c49e-4681-b607-e119e8feb77d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-0000605da628")
 		(sheetname "/Fuel & Ignition/")
@@ -20843,6 +21671,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C1710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b3822502-b46e-4d19-a775-1e7008bc3377")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005cd5ab24")
 		(sheetname "/Inputs/")
@@ -20988,7 +21828,7 @@
 		(path "/00000000-0000-0000-0000-00005cd19033/8e292eec-2ee9-4577-96d0-1fbd648d584c")
 		(sheetname "/Connector/")
 		(sheetfile "connector.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -21260,6 +22100,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17513"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84b7fe6b-02a2-45b2-a08d-583a288a1e10")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-00005cd55cc3")
 		(sheetname "/Fuel & Ignition/")
@@ -21405,7 +22257,7 @@
 		(path "/00000000-0000-0000-0000-00005cd19033/57e2e83e-767c-444b-a8c7-9b0881735001")
 		(sheetname "/Connector/")
 		(sheetfile "connector.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -21677,6 +22529,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dad80fc4-09e4-42e3-9cf9-edd9423aa6da")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18c17/00000000-0000-0000-0000-0000605db296")
 		(sheetname "/Fuel & Ignition/")
@@ -21855,6 +22719,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2898533"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "42b72399-c7ab-4bda-a995-cd417fe191e0")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -22178,6 +23054,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C222209"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78207c41-f389-491f-b16b-df23d66e8351")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -22599,6 +23487,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d57dc048-65d9-451a-877b-e714257a6aea")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd191f5/00000000-0000-0000-0000-00005cea1fff")
 		(sheetname "/Outputs/")
@@ -22790,6 +23690,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C2480"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7a08d63f-563c-470f-88f2-4874a275517b")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -23750,6 +24662,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C21237"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d3b73825-4fba-48a5-baae-ab774258814f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005ce1fccb")
 		(sheetname "/Inputs/")
@@ -23939,6 +24863,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C1710"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0a91de8d-ac95-4f20-930c-4ea4b9f906aa")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -24136,6 +25072,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C49678"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c3e87202-76bc-4e09-9810-5ea51dab2243")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/00000000-0000-0000-0000-00005cd18d89/00000000-0000-0000-0000-00005cdac729")
 		(sheetname "/Inputs/")
@@ -24325,6 +25273,18 @@
 			(effects
 				(font
 					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C149504"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "fd659c41-7225-4525-aa83-a30e1555b7ba")
+			(effects
+				(font
+					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
