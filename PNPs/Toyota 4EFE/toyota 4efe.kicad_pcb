@@ -2653,7 +2653,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D16"
-			(at -0.127 -1.905 0)
+			(at -0.1925 1.98 0)
 			(layer "F.SilkS")
 			(uuid "87ef0758-22a8-476b-8c56-cad920d4f3e6")
 			(effects
@@ -5558,6 +5558,7 @@
 		(property "Reference" "JP12"
 			(at 0 -1.8 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5f86e96d-eb48-46d5-a452-e8535f6282cc")
 			(effects
 				(font
@@ -6351,11 +6352,11 @@
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "3f89f7da-8f17-4026-ad5a-0aff1e8d5606")
-		(at 73.7 132.75 -90)
+		(at 73.62 132.57 -90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C18"
-			(at 0 -1.68 90)
+			(at 2.57 0.09 180)
 			(layer "F.SilkS")
 			(uuid "f0bf1894-d112-4c2c-9ae5-46acafb441af")
 			(effects
@@ -8506,7 +8507,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D19"
-			(at -0.127 -1.905 0)
+			(at 3.7275 0.13 0)
 			(layer "F.SilkS")
 			(uuid "f76e9c03-9322-48e8-a8d7-553eeaccdd23")
 			(effects
@@ -14874,7 +14875,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D18"
-			(at -0.127 -1.905 0)
+			(at 4.06 -0.07 0)
 			(layer "F.SilkS")
 			(uuid "1d1412b5-f85b-4102-9bf7-ca07dbb1cc6e")
 			(effects
@@ -15426,7 +15427,7 @@
 		(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOIC SO")
 		(property "Reference" "U9"
-			(at 0 -3.4 0)
+			(at -1.39 -3.4775 0)
 			(layer "F.SilkS")
 			(uuid "c34c38df-ebec-4d76-a9a4-017520b6c03f")
 			(effects
@@ -17532,7 +17533,7 @@
 		(descr "Tantalum Capacitor SMD Kemet-D (7343-31 Metric), IPC-7352 nominal, (Body size from: http://www.kemet.com/Lists/ProductCatalog/Attachments/253/KEM_TC101_STD.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor tantalum")
 		(property "Reference" "C17"
-			(at 0 -3.1 90)
+			(at 0.42 -0.04 180)
 			(layer "F.SilkS")
 			(uuid "d66735b6-510f-46d1-bfee-648905a775fe")
 			(effects
@@ -22637,7 +22638,7 @@
 		(descr "Diode SMB (DO-214AA)")
 		(tags "Diode SMB (DO-214AA)")
 		(property "Reference" "D15"
-			(at 0 -3 90)
+			(at 1.89 -3.19 270)
 			(layer "F.SilkS")
 			(uuid "94324742-d430-4c3c-9938-1358562e8b5f")
 			(effects
@@ -23595,7 +23596,7 @@
 		(descr "Diode SMA (DO-214AC)")
 		(tags "Diode SMA (DO-214AC)")
 		(property "Reference" "D14"
-			(at 0 -2.5 90)
+			(at -0.0225 0 180)
 			(layer "F.SilkS")
 			(uuid "8583e1fa-d711-43fe-a8e5-972f1d7ba65a")
 			(effects
@@ -23934,6 +23935,7 @@
 		(property "Reference" "JP13"
 			(at 0 -1.8 90)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "328c307b-428c-4f5c-9140-f72ce5fabc20")
 			(effects
 				(font
@@ -25535,20 +25537,20 @@
 		)
 	)
 	(segment
-		(start 66.45 129.55)
-		(end 83.9 129.55)
-		(width 0.508)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "06730524-d3e1-489a-8016-6bd36863cf10")
-	)
-	(segment
 		(start 131.3125 56.625)
 		(end 131.3125 53.6375)
 		(width 0.381)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "0815f1b7-8ef2-4615-8214-b3545d95bf9a")
+	)
+	(segment
+		(start 66.45 129.55)
+		(end 83.9 129.55)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "0cad91ee-d68d-4318-bb1e-bdfbb34136d7")
 	)
 	(segment
 		(start 143.14 138.44)
@@ -25591,6 +25593,14 @@
 		(uuid "414c2618-cc91-4adc-ae70-91e152097101")
 	)
 	(segment
+		(start 83.9 129.55)
+		(end 89.58 135.23)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "4741c823-3b14-417c-883e-0dc3853ff35d")
+	)
+	(segment
 		(start 65.45 125.075)
 		(end 65.45 126.85)
 		(width 1.016)
@@ -25631,12 +25641,12 @@
 		(uuid "740dce6b-640b-4277-8413-f0890c2ffd3f")
 	)
 	(segment
-		(start 83.9 129.55)
-		(end 102.15 147.8)
+		(start 64.6 127.7)
+		(end 66.45 129.55)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "7ceba562-7e61-4adf-9ed3-28db7512b0f6")
+		(uuid "77632d13-82d1-48ad-8261-05f60a411e9d")
 	)
 	(segment
 		(start 76.125 73.35)
@@ -25679,14 +25689,6 @@
 		(uuid "8d0bb8e7-9f48-4f38-80e7-c17d7715dcc6")
 	)
 	(segment
-		(start 64.6 127.7)
-		(end 66.45 129.55)
-		(width 0.508)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "8dcf2773-ce4d-4c95-a692-4c9c8b9b3cef")
-	)
-	(segment
 		(start 165.17 121.73)
 		(end 165.17 128.63)
 		(width 0.381)
@@ -25703,20 +25705,28 @@
 		(uuid "921a1c6a-5f50-4c37-a2ce-87c89f78bd23")
 	)
 	(segment
+		(start 89.58 140.23)
+		(end 97.15 147.8)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "9d88add8-fcda-4ff7-b1fd-ee72e198c35b")
+	)
+	(segment
+		(start 97.15 147.8)
+		(end 133.78 147.8)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "a7346e02-3496-4f77-b615-efd1365e787e")
+	)
+	(segment
 		(start 133.78 147.8)
 		(end 143.14 138.44)
 		(width 0.508)
 		(layer "F.Cu")
 		(net 1)
-		(uuid "952fdf76-8964-451e-9fe8-aa7271a5267e")
-	)
-	(segment
-		(start 102.15 147.8)
-		(end 133.78 147.8)
-		(width 0.508)
-		(layer "F.Cu")
-		(net 1)
-		(uuid "9af1632e-80b2-4833-ab57-8d5786517024")
+		(uuid "acf01a25-a5c5-4410-aa49-43f73eabe3ce")
 	)
 	(segment
 		(start 65.45 126.85)
@@ -25725,6 +25735,14 @@
 		(layer "F.Cu")
 		(net 1)
 		(uuid "bc207817-d755-4685-8981-ee1b5044088f")
+	)
+	(segment
+		(start 89.58 135.23)
+		(end 89.58 140.23)
+		(width 0.508)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "ca879d92-45ab-4c58-8a70-8a4cbc5ab74f")
 	)
 	(segment
 		(start 167.47 119.43)
